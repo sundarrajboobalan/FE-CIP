@@ -3,7 +3,7 @@ pipeline
     agent any
     environment
     {
-        registry='sundarrajboobalan/niqdemo'
+        registry='sundarrajboobalan/niqdemo1'
         dockerImage=''
         registryCredential='dockerhub-id'
     }
