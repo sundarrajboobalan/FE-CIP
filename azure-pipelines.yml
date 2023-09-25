@@ -14,9 +14,10 @@ steps:
   inputs:
     rootFolderOrFile: '$(build.sourcesDirectory)'
     includeRootFolder: false
+
 - task: Docker@2
   inputs:
-    containerRegistry: 'docker'
+    containerRegistry: 'dockerhub'
     repository: 'sundarrajboobalan/azuredevops'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
