@@ -3,9 +3,9 @@ pipeline
     agent any
     environment
     {
-        registry='sundarrajboobalan/demoapp'
+        registry='sundarrajboobalan/project3'
         dockerImage=''   
-         registryCredential ='dockerhub-id' //credential name
+         registryCredential ='dockerhub' //credential name
         }
     stages
     {
@@ -44,6 +44,7 @@ pipeline
     }
     }
 }
+
 
 
 
